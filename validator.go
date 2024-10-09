@@ -180,7 +180,7 @@ func Validate(vat string, countriesList ...countries.Calculer) (*CheckResult, er
 
 	cleanVAT := removeExtraChars(vat)
 
-	if countriesList[0] == nil {
+	if len(countriesList) == 0 {
 		countriesList = allCountries
 	}
 

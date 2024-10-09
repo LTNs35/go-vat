@@ -722,7 +722,7 @@ func TestCheckVAT(t *testing.T) {
 
 						got := new(CheckResult)
 
-						if &tt.country == nil {
+						if tt.country == nil {
 							got, _ = Validate(value)
 						} else {
 							got, _ = Validate(value, tt.country)

@@ -13,11 +13,13 @@ stored in a database.
 ## :gear: Installation
 
 Go v1.17.x or newer (RECOMMENDED)
+
 ```
 go install github.com/ltns35/go-vat
 ```
 
 Go v1.16.x or older
+
 ```
 go get -u github.com/ltns35/go-vat
 ```
@@ -141,8 +143,10 @@ merged.
 
 ## :test_tube: Testing
 
-The library is tested against the 2 latest stable major versions of Go.
+The library is tested against the 4 latest stable major versions of Go.
 
+- 1.23.x
+- 1.22.x
 - 1.17.x
 - 1.16.x
 
